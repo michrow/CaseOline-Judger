@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="caseonline.judger.web.mapper.TestcaseCategoryMapper" >
+  <resultMap id="BaseResultMap" type="caseonline.judger.web.model.TestcaseCategory" >
+    <id column="category_id" property="categoryId" jdbcType="INTEGER" />
+    <result column="category_type" property="categoryType" jdbcType="VARCHAR" />
+    <result column="category_name" property="categoryName" jdbcType="VARCHAR" />
+    <result column="pre_category_id" property="preCategoryId" jdbcType="INTEGER" />
+    <result column="catebak1" property="catebak1" jdbcType="VARCHAR" />
+    <result column="catebak2" property="catebak2" jdbcType="VARCHAR" />
+    <result column="catebak3" property="catebak3" jdbcType="VARCHAR" />
+  </resultMap>
+ 
+  <select id="getCategoryById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+  *
+    from coj_testcase_category
+    where category_id = #{categoryId,jdbcType=INTEGER}
+  </select>
+  
+  <select id="getCategoryByName" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+  *
+    from coj_testcase_category
+    where category_name = #{categoryName,jdbcType=VARCHAR}
+  </select>
+  <select id="getCategoryByType" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+  *
+    from coj_testcase_category
+    where category_type = #{categoryType,jdbcType=VARCHAR}
+  </select>
+  <select id="getAllTestcaseCategories" resultMap="BaseResultMap">
+    select 
+  *
+    from coj_testcase_category
+  </select>
+  
+  <delete id="deleteCategory" parameterType="java.lang.Integer" >
+    delete from coj_testcase_category
+    where category_id = #{categoryId,jdbcType=INTEGER}
+  </delete>
+  
+  <insert id="createCategory" parameterType="caseonline.judger.web.model.TestcaseCategory" >
+    insert into coj_testcase_category (category_type, category_name, 
+      pre_category_id, catebak1, catebak2, 
+      catebak3)
+    values (#{categoryType,jdbcType=VARCHAR}, #{categoryName,jdbcType=VARCHAR}, 
+      #{preCategoryId,jdbcType=INTEGER}, #{catebak1,jdbcType=VARCHAR}, #{catebak2,jdbcType=VARCHAR}, 
+      #{catebak3,jdbcType=VARCHAR})
+  </insert>
+ 
+  <update id="updateCategory" parameterType="caseonline.judger.web.model.TestcaseCategory" >
+    update coj_testcase_category
+    set category_type = #{categoryType,jdbcType=VARCHAR},
+      category_name = #{categoryName,jdbcType=VARCHAR},
+      pre_category_id = #{preCategoryId,jdbcType=INTEGER},
+      catebak1 = #{catebak1,jdbcType=VARCHAR},
+      catebak2 = #{catebak2,jdbcType=VARCHAR},
+      catebak3 = #{catebak3,jdbcType=VARCHAR}
+    where category_id = #{categoryId,jdbcType=INTEGER}
+  </update>
+</mapper>

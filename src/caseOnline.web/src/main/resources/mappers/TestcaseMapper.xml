@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="caseonline.judger.web.mapper.TestcaseMapper">
+	<resultMap id="BaseResultMap" type="caseonline.judger.web.model.Testcase">
+		<id column="testcase_id" property="testcaseId" jdbcType="BIGINT" />
+		<result column="is_public" property="isPublic" jdbcType="CHAR" />
+		<result column="testcase_name" property="testcaseName"
+			jdbcType="VARCHAR" />
+		<result column="testcase_code" property="testcaseCode"
+			jdbcType="LONGVARCHAR" />
+		<result column="testcase_param_attr" property="testcaseParamAttr"
+			jdbcType="VARCHAR" />
+		<result column="total_submission" property="totalSubmission"
+			jdbcType="INTEGER" />
+		<result column="total_user_submission" property="totalUserSubmission"
+			jdbcType="INTEGER" />
+		<result column="max_coverage" property="maxCoverage" jdbcType="REAL" />
+
+		<result column="testcase__description" property="testcaseDescription"
+			jdbcType="VARCHAR" />
+		<result column="casebak1" property="casebak1" jdbcType="VARCHAR" />
+		<result column="casebak2" property="casebak2" jdbcType="VARCHAR" />
+		<result column="casebak3" property="casebak3" jdbcType="VARCHAR" />
+		<association property="language" javaType="caseonline.judger.web.model.Language"
+			column="language_id" select="caseonline.judger.web.mapper.LanguageMapper.getLanguageById" />
+	</resultMap>
+	<select id="getNumberOfTestcase" resultType="long">
+		SELECT COUNT(*)
+		FROM coj_testcase
+	</select>
+	
+	
+	<select id="getNumberofTestcaseByCondition" parameterType="map"
+		resultType="long">
+		SELECT COUNT(DISTINCT(testcase_id))
+		FROM coj_testcase
+		NATURAL JOIN coj_testcase_rela_cate pcr
+		NATURAL JOIN coj_testcase_category
+		pc
+		<where>
+			<if test="isPublic == true">
+				is_public = 1
+			</if>
+			<if test="keyword != null and keyword != ''">
+				AND testcase_name LIKE "%"#{keyword}"%"
+			</if>
+			<if test="categoryId != 0">
+				AND category_id = #{categoryId}
+			</if>
+		</where>
+	</select>
+	<select id="getLowerBoundOfTestcase" resultType="long">
+		SELECT
+		MIN(testcase_id)
+		FROM coj_testcase
+	</select>
+	<select id="getUpperBoundOfTestcase" resultType="long">
+		SELECT
+		MAX(testcase_id)
+		FROM coj_testcase
+	</select>
+
+	<select id="getUpperBoundOfTestcasesWithLimit" parameterType="map"
+		resultType="long">
+		SELECT MAX(testcase_id)
+		FROM (
+		SELECT testcase_id
+		FROM coj_testcase
+		WHERE testcase_id >= #{testcaseId}
+		<if test="isPublic == true">
+			AND is_public = 1
+		</if>
+		LIMIT #{limit}
+		) p
+	</select>
+
+	<select id="getTestcaseById" parameterType="long" resultMap="BaseResultMap">
+		SELECT
+		*
+		FROM coj_testcase
+		natural join coj_language
+		natural join coj_usecase_format
+		WHERE testcase_id = #{testcaseId}
+	</select>
+	<select id="getTestcaseByName" parameterType="String" resultMap="BaseResultMap">
+		SELECT
+		*
+		FROM coj_testcase
+		WHERE testcase_name = #{testcaseName}
+	</select>
+
+	<select id="getAllTestCaseByCondition" parameterType="map"
+		resultMap="BaseResultMap">
+
+		SELECT DISTINCT(p.testcase_id) ,testcase_name,is_public,language_id
+		, (
+		SELECT COUNT(*)
+		FROM coj_submission s
+		WHERE s.testcase_id = p.testcase_id
+		) AS total_submission ,
+		(
+		SELECT COUNT(DISTINCT user_id)
+		FROM coj_submission s
+		WHERE s.testcase_id = p.testcase_id
+		) AS total_user_submission ,
+		(
+		SELECT max(usecase_coverage)
+		FROM coj_submission s
+		WHERE s.testcase_id = p.testcase_id
+		) AS max_coverage
+		FROM coj_testcase p
+		NATURAL JOIN coj_testcase_rela_cate pcr
+
+		WHERE p.testcase_id &gt;= #{testcaseId}
+		<if test="isPublic == true">
+			AND is_public = 1
+		</if>
+		<if test="keyword != null and keyword != ''">
+			AND testcase_name LIKE "%"#{keyword}"%"
+		</if>
+		<if test="categoryId != 0">
+			AND category_id = #{categoryId}
+		</if>
+		LIMIT #{limit}
+	</select>
+
+	<delete id="deleteTestcase" parameterType="java.lang.Long">
+		delete from coj_testcase
+		where testcase_id = #{testcaseId,jdbcType=BIGINT}
+	</delete>
+
+	<insert id="createTestcase" parameterType="caseonline.judger.web.model.Testcase"
+	keyProperty="testcaseId" 
+		keyColumn="testcase_id"
+		useGeneratedKeys="true"
+	>
+		insert into coj_testcase (is_public, testcase_name,
+		language_id, testcase__description, testcase_param_attr,
+		casebak1, casebak2, casebak3, testcase_code
+		)
+		values (#{isPublic,jdbcType=CHAR},
+		#{testcaseName,jdbcType=VARCHAR},
+		#{language.languageId,jdbcType=INTEGER}, #{testcaseDescription,jdbcType=VARCHAR},
+		#{testcaseParamAttr,jdbcType=VARCHAR},
+		#{casebak1,jdbcType=VARCHAR}, #{casebak2,jdbcType=VARCHAR}, #{casebak3,jdbcType=VARCHAR},
+		#{testcaseCode,jdbcType=LONGVARCHAR}
+		)
+	</insert>
+
+	<update id="updateTestcase" parameterType="caseonline.judger.web.model.Testcase">
+		update coj_testcase
+		set is_public = #{isPublic,jdbcType=CHAR},
+		testcase_name = #{testcaseName,jdbcType=VARCHAR},
+		language_id = #{language.languageId,jdbcType=INTEGER},
+		testcase__description = #{testcaseDescription,jdbcType=VARCHAR},
+		testcase_param_attr = #{testcaseParamAttr,jdbcType=VARCHAR},
+		casebak1 = #{casebak1,jdbcType=VARCHAR},
+		casebak2 = #{casebak2,jdbcType=VARCHAR},
+		casebak3 = #{casebak3,jdbcType=VARCHAR},
+		testcase_code = #{testcaseCode,jdbcType=LONGVARCHAR}
+		where testcase_id = #{testcaseId,jdbcType=BIGINT}
+	</update>
+</mapper>

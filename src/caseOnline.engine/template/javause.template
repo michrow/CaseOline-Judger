@@ -1,0 +1,31 @@
+<%
+  for(head in bean.heads){
+  %>
+import ${head}
+  <%}%>
+/**
+* 
+* 测试类${bean.className}
+* @author ${bean.author}
+* ${bean.createTime}
+*
+*/
+public class ${bean.className}Test{
+
+
+  <%
+  var i=0;
+  for(param in bean.paramInfo){
+  		i++;
+  %>
+  @Test
+  public void test_${param.methodName}${i}() {
+  <%
+  	var date=json(param.params);
+  	var len=strutil.length(date);
+  	var p=strutil.subStringTo(date,1,len-1);
+    %>
+      assertEquals(${param.expectValue}, ${bean.testClassName}.${param.methodName}(${p}));
+  }
+  <%}%>
+}

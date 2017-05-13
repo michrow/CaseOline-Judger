@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="caseonline.judger.engine.mapper.UserRoleMapper" >
+  <resultMap id="BaseResultMap" type="caseonline.judger.engine.model.UserRole" >
+    <id column="role_id" property="roleId" jdbcType="INTEGER" />
+    <result column="role_type" property="roleType" jdbcType="VARCHAR" />
+    <result column="role_name" property="roleName" jdbcType="VARCHAR" />
+    <result column="rolebak1" property="rolebak1" jdbcType="VARCHAR" />
+    <result column="rolebak2" property="rolebak2" jdbcType="VARCHAR" />
+    <result column="rolebak3" property="rolebak3" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <select id="getUserRoleById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    *
+    from coj_user_role
+    where role_id = #{roleId,jdbcType=INTEGER}
+  </select>
+  
+    <select id="getUserRoleByType" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+   *
+    from coj_user_role
+    where role_type = #{roleType,jdbcType=INTEGER}
+  </select>
+  
+   <select id="getAllUserRoles" resultMap="BaseResultMap" >
+    select 
+   *
+    from coj_user_role
+  </select>
+  
+  <delete id="deleteUserRole" parameterType="java.lang.Integer" >
+    delete from coj_user_role
+    where role_id = #{roleId,jdbcType=INTEGER}
+  </delete>
+  
+  <insert id="createUserRole" parameterType="caseonline.judger.engine.model.UserRole" >
+    insert into coj_user_role (role_type, role_name, 
+      rolebak1, rolebak2, rolebak3)
+    values (#{roleType,jdbcType=VARCHAR}, #{roleName,jdbcType=VARCHAR}, 
+      #{rolebak1,jdbcType=VARCHAR}, #{rolebak2,jdbcType=VARCHAR}, #{rolebak3,jdbcType=VARCHAR})
+  </insert>
+
+  <update id="updateUserRole" parameterType="caseonline.judger.engine.model.UserRole" >
+    update coj_user_role
+    set role_type = #{roleType},
+      role_name = #{roleName},
+      rolebak1 = #{rolebak1},
+      rolebak2 = #{rolebak2},
+      rolebak3 = #{rolebak3}
+    where role_id = #{roleId}
+  </update>
+</mapper>

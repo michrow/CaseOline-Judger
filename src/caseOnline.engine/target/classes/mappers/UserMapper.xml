@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="caseonline.judger.engine.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="caseonline.judger.engine.model.User">
+    <id column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="register_time" jdbcType="TIMESTAMP" property="registerTime" />
+ 	 <result column="userbak1" property="userbak1" jdbcType="VARCHAR" />
+    <result column="userbak2" property="userbak2" jdbcType="VARCHAR" />
+    <result column="userbak3" property="userbak3" jdbcType="VARCHAR" />
+    
+    <association property="role"
+    javaType="caseonline.judger.engine.model.UserRole"
+    column="role_id"
+    select="caseonline.judger.engine.mapper.UserRoleMapper.getUserRoleById"
+    ></association>
+    
+  </resultMap>
+  
+  <select id="getUserById" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+   *
+    from coj_user
+    where user_id = #{userId,jdbcType=BIGINT}
+  </select>
+  
+   <select id="getUserByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+   *
+    from coj_user
+    where user_name = #{userName,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="getUserByEmail" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+   *
+    from coj_user
+    where email = #{email,jdbcType=VARCHAR}
+  </select>
+  
+  <delete id="deleteUser" parameterType="java.lang.Long">
+    delete from coj_user
+    where user_id = #{userId,jdbcType=BIGINT}
+  </delete>
+  
+  <insert id="createUser" parameterType="caseonline.judger.engine.model.User">
+    insert into coj_user (user_name, password, 
+      email, role_id, register_time, 
+      userbak1,userbak2,userbak3)
+    values (#{userName}, #{password}, 
+      #{email}, #{role.roleId}, #{registerTime}, 
+     #{userbak1},#{userbak2},#{userbak3})
+  </insert>
+
+	<select id="getNumberOfUserRegistered" 
+		parameterType="map"
+		resultType="long">
+		SELECT COUNT(*) 
+		FROM coj_user 
+		WHERE  register_time &gt;= #{startTime} AND register_time &lt;= #{endTime}
+	</select>
+
+  <update id="updateUser" parameterType="caseonline.judger.engine.model.User">
+    update coj_user
+    set user_name = #{userName,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      role_id = #{role.roleId,jdbcType=INTEGER},
+      register_time = #{registerTime,jdbcType=TIMESTAMP},
+      userbak1=#{userbak1,jdbcType=VARCHAR},
+      userbak2=#{userbak2,jdbcType=VARCHAR},
+       userbak3=#{userbak3,jdbcType=VARCHAR}
+    where user_id = #{userId,jdbcType=BIGINT}
+  </update>
+ 	<select id="getNumberOfUserByCondition"
+		parameterType="map"
+		resultType="long">
+		SELECT COUNT(*)
+		FROM coj_user
+		<where>
+			<if test="userRole != null">
+         		role_id = #{userRole.roleId}
+			</if>
+			<if test="userName != null and userName != ''">
+         		AND user_name LIKE "%"#{userName}"%"
+			</if>
+		</where>
+	</select>
+ <select id="getAllUserByConditon" 
+		parameterType="map"
+		resultMap="BaseResultMap">
+		SELECT * 
+		FROM coj_user 
+		<where>
+			<if test="userRole != null">
+         		role_id = #{userRole.roleId}
+			</if>
+			<if test="userName != null and userName != ''">
+         		AND user_name LIKE "%"#{userName}"%"
+			</if>
+		</where>
+		LIMIT #{offset}, #{limit}
+	</select>
+</mapper>
