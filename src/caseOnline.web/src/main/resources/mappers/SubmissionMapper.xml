@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="caseonline.judger.web.mapper.SubmissionMapper">
+	<resultMap id="BaseResultMap" type="caseonline.judger.web.model.Submission">
+		<id column="submission_id" property="submissionId" jdbcType="BIGINT" />
+		<result column="submission_submit_time" property="submissionSubmitTime" jdbcType="TIMESTAMP" />
+		<result column="usecase" property="usecase" jdbcType="VARCHAR" />
+		<result column="usecase_amount" property="usecaseAmount" jdbcType="INTEGER" />
+		<result column="usecase_coverage" property="usecaseCoverage" jdbcType="REAL" />
+		<result column="judge_log" property="judgeLog" jdbcType="LONGVARCHAR"/>
+		<result column="submitbak1" property="submitbak1" jdbcType="VARCHAR" />
+		<result column="submitbak2" property="submitbak2" jdbcType="VARCHAR" />
+		<result column="submitbak3" property="submitbak3" jdbcType="VARCHAR" />
+	<result column="judger_name" property="judgerName" jdbcType="VARCHAR" />
+		<association property="testcase"
+			javaType="caseonline.judger.web.model.Testcase" column="testcase_id"
+			select="caseonline.judger.web.mapper.TestcaseMapper.getTestcaseById" />
+
+		<association property="user" javaType="caseonline.judger.web.model.User"
+			column="user_id" select="caseonline.judger.web.mapper.UserMapper.getUserById" />
+
+		<association property="language"
+			javaType="caseonline.judger.web.model.Language" column="language_id"
+			select="caseonline.judger.web.mapper.LanguageMapper.getLanguageById" />
+			
+		<association property="judgeResult"
+			javaType="caseonline.judger.web.model.JudgeResult" column="judge_result_flag"
+			select="caseonline.judger.web.mapper.JudgeResultMapper.getJudgeResultByFlag" />
+	</resultMap>
+
+	<select id="getSubmissionById" resultMap="BaseResultMap"
+		parameterType="java.lang.Long" useCache="true">
+		select
+		*
+		from coj_submission
+		where submission_id =
+		#{submissionId,jdbcType=BIGINT}
+	</select>
+
+	<select id="getLatestSubmissionsOfUser" resultMap="BaseResultMap"
+		parameterType="java.lang.Long" useCache="true">
+		select
+		*
+		from coj_submission
+		where user_id =
+		#{userId,jdbcType=BIGINT}
+		order by submission_id desc
+	</select>
+
+	<select id="getSubmissionsByLanguageId" resultMap="BaseResultMap"
+		parameterType="java.lang.Integer" useCache="true">
+		select
+		*
+		from coj_submission
+		where language_id =
+		#{languageId,jdbcType=INTEGER}
+	</select>
+	<select id="getLatestSubmissionId"
+		resultType="long" useCache="true">
+		SELECT IFNULL(MAX(submission_id), 0)
+		FROM coj_submission
+	</select>
+	<select id="getTotalSubmissionByUserId" resultType="long"
+		parameterType="java.lang.Long" useCache="true">
+		select COUNT(testcase_id)
+		from coj_submission
+		where user_id = #{userId,jdbcType=BIGINT}
+	</select>
+	<select id="getSubmissionsByTcIdOrUId" resultMap="BaseResultMap"
+		parameterType="map" useCache="true">
+		select
+		*
+		from coj_submission
+		natural join coj_user
+		<where>
+			<if test="testcaseId!=0">
+				testcase_id=#{testcaseId,jdbcType=BIGINT}
+			</if>
+			<if test="userName!=null and userName!=''">
+				and user_name=#{userName,jdbcType=VARCHAR}
+			</if>
+		</where>
+		order by submission_id desc
+		limit #{limit}
+	</select>
+
+	<select id="getSubmissionsByOffset" resultMap="BaseResultMap"
+		parameterType="map" useCache="true">
+		select
+		*
+		from coj_submission
+		natural join coj_user
+		where submission_id &lt;=#{offset}
+		<if test="testcaseId != 0">
+			AND testcase_id = #{testcaseId}
+		</if>
+		<if test="userName != null and userName != ''">
+			AND user_name like "%"#{userName}"%"
+		</if>
+		ORDER BY submission_id desc
+		LIMIT #{limit}
+	</select>
+
+	<select id="getLatestSubmissionsByOffset" resultMap="BaseResultMap"
+		parameterType="map" useCache="true">
+		select
+		*
+		from coj_submission
+		natural join coj_user
+		where submission_id
+		&gt;=#{offset}
+		<if test="testcaseId != 0">
+			AND testcase_id = #{testcaseId}
+		</if>
+		<if test="userName != null and userName != ''">
+			AND user_name = #{userName}
+		</if>
+		ORDER BY submission_id
+		LIMIT #{limit}
+	</select>
+
+<select id="getNumberOfSubmissions" 
+		parameterType="map"
+		resultType="long" useCache="true">
+		SELECT COUNT(*) 
+		FROM coj_submission
+		<where>
+			<if test="startTime != null">
+				submission_submit_time &gt;= #{startTime}
+			</if>
+			<if test="endTime != null">
+				AND submission_submit_time &lt; #{endTime}
+			</if>
+		</where>
+	</select>
+	<delete id="deleteSubmission" parameterType="java.lang.Long" flushCache="true">
+		delete from
+		coj_submission
+		where submission_id = #{submissionId,jdbcType=BIGINT}
+	</delete>
+
+
+	<insert id="createSubmission" parameterType="caseonline.judger.web.model.Submission"
+	keyProperty="submissionId" 
+		keyColumn="submission_id"
+		useGeneratedKeys="true" flushCache="true">
+		insert into
+		coj_submission (testcase_id, user_id,
+		language_id,
+		submission_submit_time, usecase,
+		usecase_amount, usecase_coverage,
+		submitbak1,
+		submitbak2, submitbak3)
+		values
+		(#{testcase.testcaseId,jdbcType=BIGINT},
+		#{user.userId,jdbcType=BIGINT},
+		#{language.languageId,jdbcType=INTEGER},
+		#{submissionSubmitTime,jdbcType=TIMESTAMP},
+		#{usecase,jdbcType=VARCHAR},
+		#{usecaseAmount,jdbcType=INTEGER},
+		#{usecaseCoverage,jdbcType=REAL},
+		#{submitbak1,jdbcType=VARCHAR},
+		#{submitbak2,jdbcType=VARCHAR}, #{submitbak3,jdbcType=VARCHAR})
+	</insert>
+
+	<update id="updateSubmission" parameterType="caseonline.judger.web.model.Submission" flushCache="true">
+		update
+		coj_submission
+		set testcase_id = #{testcase.testcaseId,jdbcType=BIGINT},
+		user_id
+		= #{user.userId,jdbcType=BIGINT},
+		language_id =
+		#{language.languageId,jdbcType=INTEGER},
+		submission_submit_time =
+		#{submissionSubmitTime,jdbcType=TIMESTAMP},
+		usecase =
+		#{usecase,jdbcType=VARCHAR},
+		usecase_amount =
+		#{usecaseAmount,jdbcType=INTEGER},
+		usecase_coverage =
+		#{usecaseCoverage,jdbcType=REAL},
+		judge_result_flag=
+		#{judgeResult.resultFlag,jdbcType=VARCHAR},
+		judge_log=
+		#{judgeLog,jdbcType=LONGVARCHAR},
+		submitbak1 =
+		#{submitbak1,jdbcType=VARCHAR},
+		submitbak2 =
+		#{submitbak2,jdbcType=VARCHAR},
+		submitbak3 =
+		#{submitbak3,jdbcType=VARCHAR}
+		where submission_id =
+		#{submissionId,jdbcType=BIGINT}
+	</update>
+</mapper>

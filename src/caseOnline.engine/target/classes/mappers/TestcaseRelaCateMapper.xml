@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="caseonline.judger.engine.mapper.TestcaseRelaCateMapper" >
+  <resultMap id="BaseResultMap" type="caseonline.judger.engine.model.TestcaseRelaCate" >
+    <id column="testcase_id" property="testcaseId" jdbcType="BIGINT" />
+   <!--  <id column="category_id" property="categoryId" jdbcType="INTEGER" /> -->
+    <result column="relabak1" property="relabak1" jdbcType="VARCHAR" />
+    <result column="relabak2" property="relabak2" jdbcType="VARCHAR" />
+    <result column="relabak3" property="relabak3" jdbcType="VARCHAR" />
+    <association property="category"
+    javaType="caseonline.judger.engine.model.TestcaseCategory"
+    column="category_id"
+    select="caseonline.judger.engine.mapper.TestcaseCategoryMapper.getCategoryById"
+    />
+    
+  </resultMap>
+
+  <select id="getTestcaseCategoriesByTestcaseId" resultMap="BaseResultMap" parameterType="long" useCache="true">
+    select 
+   *
+    from coj_testcase_rela_cate
+    where testcase_id = #{testcaseId,jdbcType=BIGINT}
+  </select>
+  
+  <select id="getTestcaseCategoriesByTestcases" resultMap="BaseResultMap" parameterType="map" useCache="true">
+    select 
+   *
+    from coj_testcase_rela_cate
+    where testcase_id &gt;= #{testcaseIdLowerBound,jdbcType=BIGINT}
+	and testcase_id &lt;= #{testcaseIdUpperBound,jdbcType=BIGINT}
+  </select>
+  
+  <delete id="deleteTestcaseCategoryRela" parameterType="long" flushCache="true">
+    delete from coj_testcase_rela_cate
+    where testcase_id = #{testcaseId,jdbcType=BIGINT}
+  </delete>
+  
+  <insert id="createTestcaseCategoryRela" parameterType="caseonline.judger.engine.model.TestcaseRelaCate" flushCache="true">
+    insert into coj_testcase_rela_cate (testcase_id, category_id, relabak1, 
+      relabak2, relabak3)
+    values (#{testcaseId,jdbcType=BIGINT}, #{category.categoryId,jdbcType=INTEGER}, #{relabak1,jdbcType=VARCHAR}, 
+      #{relabak2,jdbcType=VARCHAR}, #{relabak3,jdbcType=VARCHAR})
+  </insert>
+ 
+  <update id="updateTestcaseCategoryRela" parameterType="caseonline.judger.engine.model.TestcaseRelaCate" flushCache="true">
+    update coj_testcase_rela_cate
+    set  category_id = #{categoryId,jdbcType=INTEGER},
+      relabak1 = #{relabak1,jdbcType=VARCHAR},
+      relabak2 = #{relabak2,jdbcType=VARCHAR},
+      relabak3 = #{relabak3,jdbcType=VARCHAR}
+    where testcase_id = #{testcaseId,jdbcType=BIGINT}
+  </update>
+</mapper>

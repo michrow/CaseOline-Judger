@@ -1,0 +1,13 @@
+[INFO] 2017-05-13 13:37:17,902 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judge Judger...
+[INFO] 2017-05-13 13:37:19,145 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-13 13:37:20,635 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started.
+[INFO] 2017-05-13 13:37:30,704 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-13 13:37:50,650 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-13 13:38:10,639 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-13 13:38:30,649 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-13 13:38:50,641 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-13 13:39:10,647 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-13 13:39:30,651 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-13 13:39:50,649 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-13 13:40:10,647 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-13 13:40:30,659 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.

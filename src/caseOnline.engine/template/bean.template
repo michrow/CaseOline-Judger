@@ -1,0 +1,28 @@
+package ${bean.beanPackage};
+/**
+* @author ${bean.beanAuthor} ${bean.beanCreateTime}
+*
+*/
+public class ${bean.beanClassName} extends AbsBean{
+
+  <%
+  for(param in bean.properties){
+  %>
+  private ${param.type} ${param.name};//${param.remark}
+  <%}%>
+
+  <%
+  for(param in bean.properties){
+      var firstChar = strutil.subStringTo(param.name,0,1);
+      var firstChar_upper =  strutil.toUpperCase(firstChar);
+      var paramName = strutil.replace (param.name,firstChar,firstChar_upper);
+  %>
+  public String get${paramName}() {
+      return ${param.name};
+  }
+  public void set${paramName}(String ${param.name}) {
+      this.${param.name} = ${param.name};
+  }
+
+  <%}%>
+}

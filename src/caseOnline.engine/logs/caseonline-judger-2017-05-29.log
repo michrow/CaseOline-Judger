@@ -1,0 +1,1420 @@
+[INFO] 2017-05-29 10:10:16,799 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 10:10:18,576 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 10:10:20,104 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 10:10:30,162 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:10:50,109 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:11:10,110 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:11:30,108 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:11:50,243 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:12:10,109 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:12:30,112 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:12:50,111 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:13:10,115 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:13:30,113 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:13:50,112 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:14:10,114 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:14:25,765 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 10:14:27,252 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 10:14:27,253 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 10:14:30,123 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:14:50,114 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:15:10,114 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:15:30,115 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:15:50,117 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:16:10,114 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:16:30,116 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:16:50,115 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:17:10,116 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:17:21,572 [ActiveMQ Session Task-2] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 10:17:21,795 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 10:17:21,796 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 10:17:30,117 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:17:50,117 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:18:10,119 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:18:30,117 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:18:50,118 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:19:10,118 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:19:30,120 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:19:50,122 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:19:55,615 [ActiveMQ Session Task-3] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 10:19:56,017 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 10:19:56,017 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 10:20:10,120 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:20:30,121 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:20:50,120 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:21:10,125 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:21:30,121 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:21:50,122 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:22:10,124 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:22:30,126 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:22:50,123 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:23:10,123 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:23:30,124 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:23:50,125 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:24:10,128 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:24:30,126 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:24:50,125 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:25:10,131 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:25:30,127 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:25:50,126 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:26:10,126 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:26:30,130 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:26:50,129 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:27:10,131 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:27:30,130 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:27:50,131 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:28:10,131 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:28:30,131 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:28:50,134 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:29:10,130 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:29:30,130 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:29:50,133 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:30:10,134 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:30:30,134 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:30:50,131 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:31:10,137 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:31:30,134 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:31:50,136 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:32:10,137 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:32:30,136 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:32:50,134 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:32:51,625 [ActiveMQ Session Task-4] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 10:32:51,790 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 10:32:51,791 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 10:33:10,135 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:33:30,136 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:33:50,137 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:34:10,140 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:34:30,136 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:34:50,149 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:35:10,137 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:35:30,138 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:35:50,138 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:35:57,634 [ActiveMQ Session Task-5] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 10:35:57,820 [ActiveMQ Session Task-5] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 10:35:57,821 [ActiveMQ Session Task-5] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 10:36:10,140 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:36:30,141 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:36:50,169 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:37:10,141 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:37:30,145 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:37:50,141 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:37:54,245 [ActiveMQ Session Task-6] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 10:37:54,499 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 10:37:54,500 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 10:38:10,142 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:38:17,813 [ActiveMQ Session Task-6] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 10:38:17,921 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 10:38:17,921 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 10:38:30,142 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:38:50,147 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:39:10,145 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:39:30,143 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:39:50,173 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:40:10,146 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:40:30,145 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:40:50,146 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:41:10,145 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:41:30,148 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:41:50,145 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:42:10,146 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:42:19,469 [ActiveMQ Session Task-7] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 10:42:19,594 [ActiveMQ Session Task-7] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 10:42:19,595 [ActiveMQ Session Task-7] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 10:42:30,146 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:42:50,148 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:43:10,148 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:43:30,149 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:43:50,148 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:44:10,150 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:44:30,148 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:44:50,153 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:45:10,151 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:45:30,151 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:45:50,170 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:46:10,152 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:46:30,150 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:46:50,155 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:47:10,152 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:47:30,154 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:47:50,156 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:48:10,153 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:48:30,153 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:48:50,157 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:49:10,232 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:49:30,156 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:49:50,156 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:50:10,155 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:50:30,160 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:50:50,158 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:51:10,161 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:51:30,155 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:51:50,166 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:52:10,159 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:52:30,158 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:52:50,161 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:53:10,235 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:53:30,159 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:53:50,236 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:54:10,233 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:54:30,237 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:54:50,234 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:55:10,236 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:55:30,161 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:55:50,163 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:56:10,164 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:56:30,164 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:56:50,165 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:57:10,165 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:57:30,168 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:57:50,216 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:58:10,235 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:58:30,165 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:58:50,324 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:59:10,236 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:59:30,237 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 10:59:50,239 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:00:10,239 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:00:30,242 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:00:50,239 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:01:10,235 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:01:30,170 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:01:50,284 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:02:10,175 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:02:30,170 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:02:38,006 [ActiveMQ Session Task-8] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:02:38,169 [ActiveMQ Session Task-8] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:02:38,170 [ActiveMQ Session Task-8] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:02:50,170 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:03:10,241 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:03:30,174 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:03:50,173 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:04:10,175 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:04:30,242 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:04:50,175 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:05:10,177 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:05:30,238 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:05:50,261 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:06:08,267 [ActiveMQ Session Task-9] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:06:08,438 [ActiveMQ Session Task-9] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:06:08,439 [ActiveMQ Session Task-9] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:06:10,248 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:06:30,239 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:06:50,174 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:07:10,177 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:07:30,245 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:07:50,238 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:08:10,235 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:08:30,177 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:08:50,178 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:09:10,245 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:09:30,241 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:09:50,238 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:10:10,182 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:10:30,180 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:10:50,181 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:11:10,238 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:11:30,235 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:11:50,239 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:11:51,879 [ActiveMQ Session Task-10] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:11:51,995 [ActiveMQ Session Task-10] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:11:51,996 [ActiveMQ Session Task-10] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:12:10,235 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:12:30,183 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:12:50,240 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:13:10,236 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:13:30,238 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:13:49,027 [ActiveMQ Session Task-11] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:13:49,193 [ActiveMQ Session Task-11] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:13:49,194 [ActiveMQ Session Task-11] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:13:50,187 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:14:10,183 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:14:30,184 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:14:50,189 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:15:10,187 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:15:30,189 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:15:50,190 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:16:10,186 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:16:30,226 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:16:50,238 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:17:10,240 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:17:30,236 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:17:50,192 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:18:10,239 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:18:30,238 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:18:50,194 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:19:10,194 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:19:30,237 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:19:50,198 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:20:10,195 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:20:30,235 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:20:50,196 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:21:10,196 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:21:30,196 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:21:50,198 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:22:10,198 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:22:30,200 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:22:50,198 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:23:10,199 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:23:30,200 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:23:50,199 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:24:10,196 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:24:30,241 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:24:36,437 [ActiveMQ Session Task-12] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:24:36,540 [ActiveMQ Session Task-12] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:24:36,541 [ActiveMQ Session Task-12] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:24:50,238 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:24:56,833 [ActiveMQ Session Task-12] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:24:57,025 [ActiveMQ Session Task-12] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:24:57,026 [ActiveMQ Session Task-12] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:25:10,235 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:25:30,240 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:25:50,241 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:25:53,770 [ActiveMQ Session Task-13] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:25:53,882 [ActiveMQ Session Task-13] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:25:53,882 [ActiveMQ Session Task-13] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:26:10,199 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:26:30,200 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:26:50,240 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:27:10,232 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:27:30,203 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:28:31,910 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 11:28:33,157 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 11:28:34,666 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 11:28:44,687 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:28:51,159 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:28:51,834 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:28:51,835 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:29:04,672 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:29:17,062 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:29:17,196 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:29:17,197 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:29:24,713 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:29:44,673 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:29:55,964 [ActiveMQ Session Task-2] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:29:56,081 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:29:56,082 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:30:04,674 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:30:24,673 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:30:36,302 [ActiveMQ Session Task-3] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:30:36,442 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:30:36,442 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:30:44,670 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:31:04,675 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:31:24,674 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:31:44,737 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:32:04,672 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:32:24,674 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:32:44,675 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:32:50,954 [ActiveMQ Session Task-4] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:32:51,084 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:32:51,085 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:33:04,673 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:33:24,690 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:33:44,678 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:34:04,675 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:34:24,678 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:34:44,679 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:35:04,680 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:35:24,680 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:35:44,679 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:36:04,681 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:36:24,681 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:36:44,681 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:37:04,677 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:37:24,679 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:37:44,683 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:38:04,680 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:38:24,683 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:38:44,683 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:39:04,684 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:39:24,684 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:39:44,682 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:40:04,686 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:40:24,682 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:40:44,683 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:41:04,686 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:41:24,688 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:41:44,687 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:41:45,548 [ActiveMQ Session Task-5] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:41:45,748 [ActiveMQ Session Task-5] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:41:45,749 [ActiveMQ Session Task-5] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:42:04,687 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:42:24,690 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:42:27,852 [ActiveMQ Session Task-6] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:42:27,954 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:42:27,955 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:42:44,689 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:42:48,695 [ActiveMQ Session Task-6] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 11:42:48,808 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 11:42:48,809 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 11:43:04,688 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:43:24,689 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:43:44,690 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:44:04,741 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:44:24,690 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:44:44,691 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:45:04,691 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:45:24,688 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:45:44,692 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:46:04,692 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:46:24,693 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:46:44,693 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:47:04,693 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:47:24,692 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:47:44,692 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:48:04,696 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:48:24,697 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:48:44,699 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:49:04,697 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:49:24,693 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:49:44,696 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:50:04,696 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:50:24,698 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:50:44,698 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 11:51:04,695 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:12:18,374 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 12:12:20,673 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 12:12:22,843 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 12:12:32,866 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:12:52,851 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:13:11,562 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 12:13:12,528 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 12:13:12,529 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 12:13:12,882 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:13:32,847 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:13:52,851 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:14:12,851 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:14:32,851 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:14:43,079 [ActiveMQ Session Task-2] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 12:14:43,436 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 12:14:43,437 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 12:14:52,849 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:15:12,852 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:15:32,854 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:15:52,853 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:16:12,851 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:16:32,853 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:16:52,851 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:17:04,043 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 12:17:05,223 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 12:17:06,428 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 12:17:16,450 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:17:36,436 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:17:56,436 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:18:16,436 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:18:36,435 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:18:56,436 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:19:16,434 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:19:36,438 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:19:56,437 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:20:13,732 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 12:20:14,463 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 12:20:14,464 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 12:20:16,446 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:20:36,435 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:20:56,439 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:21:16,436 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:21:36,441 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:21:56,441 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:22:16,440 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:22:36,445 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:22:56,438 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:23:16,438 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:23:36,463 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:23:56,440 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:24:16,440 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:24:36,441 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:24:56,468 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:25:16,444 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:25:36,445 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:25:56,442 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:26:16,445 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:26:36,446 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:26:56,447 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:27:16,446 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:27:36,447 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:27:56,455 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:28:16,447 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:28:36,448 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:28:56,449 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:29:16,488 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:29:36,449 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:29:56,450 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:30:16,452 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:30:36,450 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:30:56,518 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:31:16,451 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:31:36,452 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:31:56,452 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:32:16,452 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:32:36,489 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:32:56,452 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:33:16,454 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:33:36,451 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:33:56,454 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:34:16,454 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:34:36,453 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:34:56,455 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:35:16,456 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:35:36,491 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:35:56,457 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:36:16,457 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:36:36,455 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:36:56,459 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:37:16,457 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:37:36,458 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:37:56,459 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:38:16,462 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:38:36,460 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:38:56,460 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:39:16,460 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:39:36,457 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:39:56,462 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:40:16,463 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:40:36,462 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:40:56,463 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:41:16,463 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:41:36,464 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:41:56,464 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:42:16,465 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:42:36,463 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:42:56,542 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:43:16,466 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:43:36,466 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:43:56,468 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:44:16,466 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:44:36,467 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:44:56,468 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:45:16,468 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:45:36,468 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:45:56,475 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:46:16,470 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:46:36,466 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:46:56,469 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:47:16,469 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:47:36,469 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:47:56,505 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:48:16,473 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:48:36,488 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:48:56,473 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:49:16,481 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:49:36,492 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:49:56,474 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:50:16,475 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:50:36,474 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:50:56,474 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:51:16,475 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:51:36,477 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:51:56,476 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:52:16,477 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:52:36,477 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:52:56,480 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:53:16,474 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:53:36,506 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:53:56,479 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:54:16,479 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:54:36,479 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:54:56,480 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:55:16,481 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:55:36,481 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:55:56,480 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:56:16,482 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:56:36,479 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:56:56,484 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:57:16,482 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:57:36,484 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:57:56,485 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:58:16,484 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:58:36,485 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:58:56,485 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:59:16,486 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:59:36,485 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 12:59:56,486 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:00:16,486 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:00:36,486 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:00:56,487 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:01:16,487 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:01:36,488 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:01:56,502 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:02:16,488 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:02:36,489 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:02:56,489 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:03:16,536 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:03:36,490 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:03:56,491 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:04:16,494 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:04:36,491 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:04:56,502 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:05:16,492 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:05:36,493 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:05:56,493 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:06:16,490 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:06:36,494 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:06:56,574 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:07:16,491 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:07:36,491 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:07:56,493 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:08:16,526 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:08:36,496 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:08:56,497 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:09:16,498 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:09:36,497 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:09:56,497 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:10:16,499 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:10:36,499 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:10:56,499 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:11:16,500 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:11:36,499 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:11:56,500 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:12:16,501 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:12:36,502 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:12:56,502 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:13:16,500 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:13:36,502 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:13:56,536 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:14:16,504 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:14:36,503 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:14:56,504 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:15:16,504 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:15:36,505 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:15:56,505 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:16:16,502 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:16:36,501 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:16:56,506 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:17:16,507 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:17:36,507 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:17:56,508 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:18:16,509 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:18:36,508 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:18:56,509 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:19:16,511 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:19:36,511 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:19:56,541 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:20:16,511 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:20:36,592 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:20:56,508 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:21:16,511 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:21:36,511 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:21:56,514 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:22:16,513 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:22:36,513 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:22:56,514 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:23:16,514 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:23:36,513 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:23:56,513 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:24:16,521 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:24:36,517 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:24:56,516 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:25:16,516 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:25:36,516 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:25:56,518 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:26:16,518 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:26:36,519 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:26:56,515 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:27:16,516 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:27:36,519 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:27:56,517 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:28:16,516 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:28:36,523 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:28:56,559 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:29:16,598 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:29:36,519 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:29:56,519 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:30:16,521 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:30:36,519 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:30:56,524 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:31:16,524 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:31:36,524 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:31:56,525 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:32:16,525 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:32:36,525 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:32:56,526 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:33:16,526 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:33:36,538 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:33:56,527 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:34:16,527 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:34:36,527 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:34:56,528 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:35:16,529 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:35:36,529 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:35:56,532 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:36:16,530 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:36:36,532 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:36:56,527 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:37:16,530 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:37:36,532 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:37:56,533 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:38:16,532 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:38:36,538 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:38:56,534 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:39:16,533 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:39:36,535 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:39:56,534 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:40:16,533 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:40:36,537 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:40:56,542 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:41:16,536 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:41:36,537 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:41:56,537 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:42:16,537 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:42:36,540 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:42:56,541 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:43:16,539 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:43:36,535 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 13:43:56,539 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:19:31,822 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 16:19:33,882 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 16:19:35,754 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 16:19:45,817 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:20:05,758 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:20:25,834 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:20:45,764 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:21:05,762 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:21:25,764 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:21:45,762 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:22:05,763 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:22:25,763 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:22:45,763 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:23:05,841 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:23:25,764 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:23:45,765 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:24:05,767 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:24:25,766 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:24:45,768 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:25:05,779 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:25:25,769 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:25:45,772 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:26:05,769 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:26:25,772 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:26:45,773 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:27:05,773 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:27:25,771 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:27:45,772 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:28:05,776 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:28:25,791 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:28:45,776 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:29:05,777 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:29:25,777 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:29:45,779 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:30:05,775 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:30:25,776 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:30:45,776 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:31:05,779 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:31:25,803 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:31:45,777 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:32:05,857 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:32:25,781 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:32:45,791 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:33:05,784 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:33:25,855 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:33:45,786 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:34:05,785 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:34:25,785 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:34:45,786 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:35:05,783 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:35:25,784 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:35:45,787 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:36:05,789 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:36:25,788 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:36:45,793 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:37:05,790 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:37:25,791 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:37:45,791 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:38:05,793 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:38:25,789 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:38:45,793 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:39:05,795 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:39:25,793 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:39:45,796 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:40:05,795 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:40:25,792 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:40:45,796 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:41:05,794 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:41:25,793 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:41:45,798 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:42:05,796 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:42:25,795 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:42:45,796 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:43:05,797 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:43:26,101 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:43:45,797 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:44:05,801 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:44:25,802 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:44:45,802 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:45:05,866 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:45:25,803 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:45:45,808 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:46:05,805 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:46:25,805 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:46:45,807 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:47:05,815 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:47:25,806 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:47:45,810 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:48:05,810 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:48:25,805 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:48:45,804 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:49:05,807 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:49:25,810 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:49:45,811 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:50:05,811 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:50:25,810 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:50:45,872 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:51:05,815 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:51:25,815 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:51:45,816 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:52:05,812 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:52:25,812 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:52:45,813 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:53:05,815 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:53:25,862 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:53:45,826 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:54:05,819 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:54:25,818 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:54:45,828 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:55:05,821 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:55:25,818 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:55:45,820 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:56:05,821 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:56:25,821 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:56:45,822 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:57:05,824 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:57:25,824 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:57:45,824 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:58:05,825 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 16:58:25,825 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:01:26,300 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 17:01:27,598 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 17:01:28,933 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 17:01:38,955 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:01:58,938 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:02:18,937 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:02:38,938 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:02:59,389 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:03:18,942 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:03:38,974 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:03:58,943 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:04:18,942 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:04:38,942 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:04:59,022 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:05:18,943 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:05:23,086 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:05:25,166 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:05:25,167 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:05:38,943 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:05:58,946 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:06:18,947 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:06:38,948 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:06:58,949 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:08:12,141 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 17:08:13,389 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 17:08:14,860 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 17:08:24,929 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:08:44,867 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:09:04,867 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:09:16,501 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:09:17,758 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:09:17,759 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:09:24,865 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:09:44,868 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:10:04,870 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:10:24,876 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:10:44,870 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:11:04,870 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:11:24,938 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:11:44,872 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:12:04,872 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:12:24,874 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:12:44,873 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:13:04,874 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:13:19,279 [ActiveMQ Session Task-2] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:13:19,425 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:13:19,426 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:13:24,940 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:13:44,874 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:14:04,877 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:14:24,873 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:14:44,912 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:14:56,785 [ActiveMQ Session Task-3] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:14:56,902 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:14:56,903 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:15:04,877 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:15:24,877 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:15:44,879 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:16:04,879 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:16:24,879 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:16:44,879 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:17:04,881 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:17:24,882 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:17:44,882 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:18:04,930 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:18:24,880 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:18:44,881 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:19:04,882 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:19:24,883 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:19:44,904 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:20:04,886 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:20:24,886 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:20:44,886 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:21:04,887 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:21:24,935 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:21:44,885 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:22:04,885 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:22:24,897 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:22:44,889 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:23:04,888 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:23:24,890 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:23:44,896 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:24:04,890 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:24:24,894 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:24:44,891 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:25:04,893 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:25:24,896 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:25:44,893 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:26:04,897 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:26:24,895 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:26:44,971 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:27:04,895 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:27:24,898 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:27:44,897 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:28:04,895 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:28:24,897 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:28:45,129 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:29:04,901 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:29:24,900 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:29:44,902 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:30:04,924 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:30:24,901 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:30:44,908 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:31:04,907 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:31:24,907 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:31:44,901 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:32:04,903 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:32:24,903 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:32:44,906 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:33:04,908 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:33:24,908 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:33:44,908 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:34:04,908 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:34:24,908 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:34:44,905 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:35:04,907 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:35:24,913 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:35:44,912 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:36:04,972 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:36:24,913 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:36:44,912 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:37:04,913 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:37:24,914 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:37:44,915 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:38:04,916 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:38:16,555 [ActiveMQ Session Task-4] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:38:16,763 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:38:16,764 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:38:24,913 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:38:44,916 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:39:04,938 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:39:24,914 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:39:36,305 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 17:39:37,560 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 17:39:39,018 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 17:39:49,046 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:40:09,028 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:40:24,928 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:40:25,696 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:40:25,697 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:40:29,028 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:40:49,032 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:41:09,028 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:41:29,025 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:41:49,047 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:42:09,031 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:42:29,029 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:42:49,031 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:43:09,031 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:43:29,032 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:43:49,029 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:44:09,032 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:44:29,031 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:44:49,031 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:45:09,033 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:45:09,727 [ActiveMQ Session Task-2] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:45:09,833 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:45:09,834 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:45:29,033 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:45:49,034 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:46:09,033 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:46:29,036 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:46:49,071 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:47:09,041 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:47:29,040 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:47:49,045 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:48:09,039 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:48:29,039 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:48:49,042 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:49:09,040 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:49:29,041 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:49:49,041 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:50:09,041 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:50:29,042 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:50:34,072 [ActiveMQ Session Task-3] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:50:34,190 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:50:34,191 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:50:49,042 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:51:09,044 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:51:29,041 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:51:49,046 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:52:09,046 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:52:29,042 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:52:49,046 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:53:09,046 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:53:29,047 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:53:45,420 [ActiveMQ Session Task-4] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:53:45,697 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:53:45,698 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:53:49,044 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:54:09,049 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:54:29,050 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:54:49,115 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:55:09,051 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:55:29,051 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:55:49,052 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:55:53,081 [ActiveMQ Session Task-5] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:55:53,206 [ActiveMQ Session Task-5] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:55:53,207 [ActiveMQ Session Task-5] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:56:09,053 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:56:29,053 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:56:49,051 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:57:09,053 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:57:29,056 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:57:42,936 [ActiveMQ Session Task-6] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 17:57:43,006 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 17:57:43,007 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 17:57:49,054 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:58:09,056 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:58:29,054 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:58:49,056 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:59:09,057 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:59:29,095 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 17:59:49,055 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:00:09,055 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:00:29,058 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:00:49,057 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:01:09,092 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:01:29,060 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:01:49,058 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:02:09,061 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:02:29,059 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:02:49,063 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:03:09,064 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:03:29,128 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:03:49,064 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:04:09,089 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:04:29,062 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:04:49,062 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:05:09,064 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:05:29,064 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:05:49,065 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:06:09,071 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:06:29,066 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:06:49,066 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:07:09,066 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:07:29,370 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:07:49,102 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:08:09,072 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:08:29,070 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:08:49,087 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:09:09,075 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:09:29,167 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:09:49,075 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:10:09,075 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:10:29,076 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:10:49,073 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:11:09,077 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:11:29,146 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:11:49,077 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:12:09,076 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:12:29,080 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:12:49,080 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:13:09,080 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:13:29,080 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:13:49,081 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:14:09,082 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:14:29,083 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:14:49,083 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:15:09,080 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:15:29,084 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:15:49,084 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:16:09,085 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:16:29,085 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:16:49,089 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:17:09,088 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:17:29,088 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:17:49,092 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:18:09,089 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:18:29,086 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:18:49,089 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:19:09,087 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:19:29,090 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:19:49,088 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:20:09,091 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:20:29,092 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:20:49,092 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:21:09,118 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:21:29,155 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:21:49,091 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:22:09,092 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:22:29,093 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:22:49,095 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:23:09,094 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:23:29,117 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:23:49,098 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:24:09,098 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:24:29,099 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:24:49,099 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:24:53,998 [ActiveMQ Session Task-7] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[ERROR] 2017-05-29 18:24:54,061 [ActiveMQ Session Task-7] caseonline.judger.engine.core.PythonCoverage - 测试用例编写有误
+[WARN] 2017-05-29 18:24:54,089 [ActiveMQ Session Task-7] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:24:54,090 [ActiveMQ Session Task-7] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:25:09,099 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:25:29,101 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:25:49,102 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:26:09,103 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:26:29,102 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:26:49,100 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:27:09,104 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:27:29,100 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:27:49,104 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:29:20,156 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 18:29:21,366 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 18:29:22,722 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 18:29:32,750 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:29:52,726 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:30:12,730 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:30:30,274 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:30:31,529 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:30:31,530 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:30:32,730 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:30:52,730 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:31:12,732 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:32:26,945 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 18:32:28,150 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 18:32:29,429 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 18:32:39,454 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:32:46,696 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:32:47,464 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:32:47,465 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:32:59,437 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:33:19,436 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:33:39,434 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:33:59,437 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:34:19,435 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:34:33,105 [ActiveMQ Session Task-2] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[ERROR] 2017-05-29 18:34:33,147 [ActiveMQ Session Task-2] caseonline.judger.engine.core.PythonCoverage - 测试用例编写有误
+[WARN] 2017-05-29 18:34:33,185 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:34:33,186 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:34:39,435 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:34:59,440 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:35:19,438 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:35:39,442 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:35:59,438 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:36:08,698 [ActiveMQ Session Task-3] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[ERROR] 2017-05-29 18:36:08,738 [ActiveMQ Session Task-3] caseonline.judger.engine.core.PythonCoverage - 测试用例编写有误
+[WARN] 2017-05-29 18:36:08,778 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:36:08,778 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:36:19,482 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:36:39,442 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:36:59,443 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:37:19,443 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:37:36,838 [ActiveMQ Session Task-4] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:37:37,011 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:37:37,012 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:37:39,442 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:37:59,445 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:38:19,444 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:38:39,444 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:38:48,358 [ActiveMQ Session Task-5] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[ERROR] 2017-05-29 18:38:48,406 [ActiveMQ Session Task-5] caseonline.judger.engine.core.JavaCoverage - 测试用例编写有误
+[WARN] 2017-05-29 18:38:48,439 [ActiveMQ Session Task-5] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:38:48,439 [ActiveMQ Session Task-5] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[ERROR] 2017-05-29 18:38:51,585 [ActiveMQ Session Task-5] caseonline.judger.engine.application.ApplicationDispatcher - catching
+java.lang.NullPointerException
+	at caseonline.judger.engine.core.JavaCoverage.parseCoverage(JavaCoverage.java:114) ~[classes/:?]
+	at caseonline.judger.engine.core.Dispatcher.run(Dispatcher.java:74) ~[classes/:?]
+	at caseonline.judger.engine.core.Dispatcher.createNewTask(Dispatcher.java:46) ~[classes/:?]
+	at caseonline.judger.engine.application.ApplicationDispatcher.onSubmissionCreated(ApplicationDispatcher.java:33) [classes/:?]
+	at caseonline.judger.engine.messenger.MessageReceiver.newSubmissionHandler(MessageReceiver.java:51) [classes/:?]
+	at caseonline.judger.engine.messenger.MessageReceiver.onMessage(MessageReceiver.java:32) [classes/:?]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746) [spring-jms-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684) [spring-jms-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651) [spring-jms-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:622) [spring-jms-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.jms.listener.SimpleMessageListenerContainer.processMessage(SimpleMessageListenerContainer.java:330) [spring-jms-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.jms.listener.SimpleMessageListenerContainer$2.onMessage(SimpleMessageListenerContainer.java:306) [spring-jms-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1401) [activemq-client-5.14.2.jar:5.14.2]
+	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:131) [activemq-client-5.14.2.jar:5.14.2]
+	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:202) [activemq-client-5.14.2.jar:5.14.2]
+	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:133) [activemq-client-5.14.2.jar:5.14.2]
+	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:48) [activemq-client-5.14.2.jar:5.14.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_45]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_45]
+[INFO] 2017-05-29 18:38:59,446 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:39:19,448 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:39:39,447 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:39:59,444 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:40:19,451 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:40:39,448 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:40:59,450 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:41:19,457 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:41:39,450 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:41:59,450 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:42:19,449 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:42:28,896 [ActiveMQ Session Task-6] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:42:29,082 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:42:29,083 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:42:39,452 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:42:59,451 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:43:19,451 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:43:39,452 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:43:59,457 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:44:19,496 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:44:39,452 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:44:59,471 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:45:19,455 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:45:39,458 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:45:59,454 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:46:19,459 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:46:39,466 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:46:59,459 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:47:08,208 [ActiveMQ Session Task-7] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:47:08,309 [ActiveMQ Session Task-7] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:47:08,310 [ActiveMQ Session Task-7] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:47:19,460 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:47:39,460 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:47:59,462 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:49:08,916 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 18:49:10,302 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 18:49:11,643 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 18:49:21,711 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:49:41,657 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:50:01,713 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:50:21,649 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:50:41,651 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:50:47,775 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:50:48,859 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:50:48,860 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:51:01,658 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:51:21,655 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:51:41,680 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:52:21,427 [main] caseonline.judger.engine.application.ApplicationBootstrap - Starting Testcase Online Judger ...
+[INFO] 2017-05-29 18:52:22,752 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO] 2017-05-29 18:52:24,085 [main] caseonline.judger.engine.application.ApplicationBootstrap - Testcase Online Judge Judger started...
+[INFO] 2017-05-29 18:52:34,109 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:52:54,091 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:53:14,092 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:53:34,092 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:53:40,636 [ActiveMQ Session Task-1] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:53:41,514 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:53:41,515 [ActiveMQ Session Task-1] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:53:54,093 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:54:14,091 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:54:17,221 [ActiveMQ Session Task-2] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:54:17,356 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:54:17,357 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:54:30,934 [ActiveMQ Session Task-2] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:54:31,054 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:54:31,055 [ActiveMQ Session Task-2] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:54:34,097 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:54:54,092 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:55:14,091 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:55:34,096 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:55:54,093 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:56:14,097 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:56:34,095 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:56:54,097 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:57:14,099 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:57:30,527 [ActiveMQ Session Task-3] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:57:30,639 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:57:30,639 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:57:34,098 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:57:54,100 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:58:05,699 [ActiveMQ Session Task-3] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:58:05,820 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:58:05,821 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:58:14,100 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:58:34,097 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:58:45,665 [ActiveMQ Session Task-3] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 18:58:45,771 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 18:58:45,772 [ActiveMQ Session Task-3] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 18:58:54,101 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:59:14,101 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:59:34,103 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 18:59:54,103 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:00:01,193 [ActiveMQ Session Task-4] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 19:00:01,276 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 19:00:01,278 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 19:00:14,100 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:00:34,100 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:00:44,154 [ActiveMQ Session Task-4] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 19:00:44,217 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 19:00:44,218 [ActiveMQ Session Task-4] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 19:00:54,138 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:01:14,109 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:01:33,796 [ActiveMQ Session Task-5] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 19:01:33,957 [ActiveMQ Session Task-5] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 19:01:33,958 [ActiveMQ Session Task-5] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 19:01:34,121 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:01:54,103 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:02:14,104 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:02:23,197 [ActiveMQ Session Task-6] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 19:02:23,263 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 19:02:23,263 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 19:02:34,104 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:02:53,887 [ActiveMQ Session Task-6] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 19:02:53,967 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 19:02:53,968 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 19:02:54,124 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:03:06,332 [ActiveMQ Session Task-6] caseonline.judger.engine.messenger.MessageReceiver - 收到任务
+[WARN] 2017-05-29 19:03:06,407 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败，目标文件已存在！
+[WARN] 2017-05-29 19:03:06,407 [ActiveMQ Session Task-6] caseonline.judger.engine.util.FileManager - 创建单个文件/tmp/ant失败！
+[INFO] 2017-05-29 19:03:14,109 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:03:34,109 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:03:54,288 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:04:14,110 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:04:34,110 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:04:54,111 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:05:14,114 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:05:34,112 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:05:54,113 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:06:14,114 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:06:34,115 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:06:54,114 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:07:14,119 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:07:34,118 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:07:54,118 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:08:14,118 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:08:34,114 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:08:54,117 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:09:14,120 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:09:34,119 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:09:54,120 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:10:14,121 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:10:34,117 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:10:54,200 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:11:14,134 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:11:34,177 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:11:54,122 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:12:14,122 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:12:34,129 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:12:54,123 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:13:14,125 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:13:34,121 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:13:54,124 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:14:14,125 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:14:34,124 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:14:54,175 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:15:14,130 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:15:34,183 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:15:54,130 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:16:14,131 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:16:34,132 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:16:54,558 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:17:14,130 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:17:34,132 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:17:54,130 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:18:14,133 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:18:34,132 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:18:54,131 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:19:14,133 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:19:34,131 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:19:54,133 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:20:14,133 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:20:34,136 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:20:54,139 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:21:14,135 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:21:34,136 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:21:54,137 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:22:14,138 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:22:34,137 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:22:54,142 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:23:14,139 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:23:34,138 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:23:54,140 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:24:14,141 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:24:34,140 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:24:54,179 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:25:14,141 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:25:34,143 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:25:54,183 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:26:14,142 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:26:34,144 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:26:54,145 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:27:14,144 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:27:34,149 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:27:54,150 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:28:14,147 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:28:34,150 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:28:54,149 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:29:14,185 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:29:34,153 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:29:54,183 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:30:14,188 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:30:34,181 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:30:54,158 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:31:14,160 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:31:34,152 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:31:54,152 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:32:14,182 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:32:34,188 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:32:54,182 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:33:14,186 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:33:34,159 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:33:54,156 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:34:14,188 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:34:34,181 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:34:54,186 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:35:14,191 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:35:34,184 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:35:54,162 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:36:14,182 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:36:34,186 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:36:54,180 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:37:14,185 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:37:34,166 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:37:54,183 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:38:14,187 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:38:34,180 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:38:54,167 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:39:14,195 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:39:34,186 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:39:54,189 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:40:14,203 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:40:34,186 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:40:54,180 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:41:14,184 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:41:34,171 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:41:54,183 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:42:14,187 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:42:34,180 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:42:54,185 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:43:14,189 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:43:34,183 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:43:54,187 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:44:14,175 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:44:34,177 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:44:54,173 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:45:14,175 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:45:34,175 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:45:54,177 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:46:14,177 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:46:34,180 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:46:54,187 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:47:14,190 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:47:34,179 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:47:54,188 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:48:14,183 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:48:34,182 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:48:54,181 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:49:14,182 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.
+[INFO] 2017-05-29 19:49:34,181 [pool-2-thread-1] caseonline.judger.engine.application.ApplicationHeartbeat - Heartbeat sent to the web server.

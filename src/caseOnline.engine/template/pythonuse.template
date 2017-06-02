@@ -1,0 +1,25 @@
+import sys
+sys.path.append("..")
+<%
+  for(head in bean.heads){
+  %>
+${head}
+  <%}%>
+class Test${bean.className}():
+  def setUp(self):
+      self.testC=${bean.testClassName}()
+  def tearDown(self):
+      self.testC=None
+  <%
+  var i=0;
+  for(param in bean.paramInfo){
+  		i++;
+  %>
+  def test${i}(self):
+  <%
+  	var date=json(param.params);
+  	var len=strutil.length(date);
+  	var p=strutil.subStringTo(date,1,len-1);
+    %>
+      assert_equal(self.testC.${param.methodName}(${p}),${param.expectValue});
+  <%}%>

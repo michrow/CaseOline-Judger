@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="caseonline.judger.engine.mapper.OptionMapper">
+  <resultMap id="BaseResultMap" type="caseonline.judger.engine.model.Option">
+    <id column="option_id" property="id"/>
+    <result column="key_" jdbcType="VARCHAR" property="key" />
+    <result column="value_" jdbcType="VARCHAR" property="value" />
+  </resultMap>
+  
+  <select id="getOptionByKey" parameterType="java.lang.String" resultMap="BaseResultMap" useCache="true">
+    select 
+   *
+    from coj_option
+    where key_ = #{key,jdbcType=VARCHAR}
+  </select>
+    <select id="getAllOption"  resultMap="BaseResultMap" useCache="true">
+    select 
+   *
+    from coj_option
+  </select>
+  
+  <update id="updateOptionByKey" parameterType="caseonline.judger.engine.model.Option" flushCache="true">
+    update coj_option
+    set value_ = #{value,jdbcType=VARCHAR},
+    key_ = #{key,jdbcType=VARCHAR}
+    where option_id=#{id,jdbcType=INTEGER}
+  </update>
+</mapper>
